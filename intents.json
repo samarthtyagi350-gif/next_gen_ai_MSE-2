@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening",
+        "How are you", "What's up", "Howdy", "Hey there", "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Nice to meet you. How can I assist?",
+        "Greetings! How may I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "I am leaving", "Talk later",
+        "Have a good day", "See you", "Catch you later", "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day!",
+        "See you later! Take care.",
+        "Bye! It was great talking with you.",
+        "Farewell! Come back anytime."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name", "Who are you", "What should I call you",
+        "Tell me your name", "Do you have a name", "What do people call you"
+      ],
+      "responses": [
+        "I am PyBot, your AI assistant!",
+        "My name is PyBot. Nice to meet you!",
+        "You can call me PyBot — built with Python and deep learning."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you", "What is your age", "When were you born",
+        "Are you old", "When were you created"
+      ],
+      "responses": [
+        "I was born in the digital realm, so age doesn't quite apply to me!",
+        "I'm as young as the code that created me!",
+        "Age is just a number for humans — I'm timeless!"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you", "Who made you", "Who built you",
+        "Who is your creator", "Who programmed you", "Who designed you"
+      ],
+      "responses": [
+        "I was built using Python, NLTK, and deep learning techniques!",
+        "A developer created me using RNN and NLP — pretty cool, right?",
+        "I was crafted with Python's NLP and deep learning libraries."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me", "I need help", "Can you help", "What can you do",
+        "Help", "What are your capabilities", "What do you know"
+      ],
+      "responses": [
+        "I can chat with you, tell jokes, share facts, and answer general questions!",
+        "I'm here to help! Ask me about myself or just have a conversation.",
+        "You can ask me anything — I'll do my best to assist!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That is helpful", "Thanks a lot",
+        "Many thanks", "I appreciate it", "Much appreciated", "Cheers"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Say something funny", "Make me laugh",
+        "Do you know any jokes", "Joke please", "Got any jokes"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? He was outstanding in his field!",
+        "I told my computer I needed a break. Now it won't stop sending me KitKat ads!",
+        "Why do programmers prefer dark mode? Because light attracts bugs!"
+      ]
+    },
+    {
+      "tag": "fact",
+      "patterns": [
+        "Tell me a fact", "Give me a fact", "Share an interesting fact",
+        "Do you know any facts", "Fun fact", "Something interesting"
+      ],
+      "responses": [
+        "Honey never spoils — archaeologists found 3000-year-old honey in Egyptian tombs!",
+        "A group of flamingos is called a 'flamboyance'!",
+        "Octopuses have three hearts and blue blood!",
+        "Bananas are technically berries, but strawberries are not!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is the weather like", "How is the weather today",
+        "Is it raining", "Will it rain today", "Weather forecast",
+        "What is the temperature"
+      ],
+      "responses": [
+        "I don't have real-time data, but you can check weather.com for accurate forecasts!",
+        "For live weather updates, Google Weather or your local app would be perfect!",
+        "I wish I could see outside! Check a weather service for the latest info."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it", "Tell me the time", "What is the current time",
+        "Do you know the time", "What is today's date"
+      ],
+      "responses": [
+        "I don't have access to real-time data, but your device clock is always handy!",
+        "Check your phone or computer clock for the current time!",
+        "I live outside of time, but your device knows exactly what time it is!"
+      ]
+    },
+    {
+      "tag": "favorite",
+      "patterns": [
+        "What is your favorite color", "Do you have a favorite food",
+        "What is your favorite movie", "What do you like", "What are your hobbies"
+      ],
+      "responses": [
+        "If I had to pick a favorite color, it'd be electric blue — the color of data!",
+        "I love processing language — it's my one true hobby!",
+        "Favorite movie? Anything with AI in it, naturally!"
+      ]
+    }
+  ]
+}
