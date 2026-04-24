@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
+"""
+Conversational Bot — Vanilla RNN (NumPy) + NLTK preprocessing.
+No TensorFlow/PyTorch required.
 
+Usage:
+    python chatbot.py           # train on first run, then chat
+    python chatbot.py --retrain # force retrain, then chat
+"""
 import json
 import os
 import pickle
